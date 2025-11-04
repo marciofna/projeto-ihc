@@ -13,13 +13,21 @@ Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
 - Apresente uma breve descrição.
 - Apresente o objetivo.
   - A partir de um aplicativo móvel, conseguir organizar e otimizar o deslocamento de passageiros com destino à FEI, bem como com destino de volta para casa partindo da FEI, visando diminuir a emissão de CO² e contribuir para a redução do número de veículos em circulação 
-- Apresente o usuário final: Alunos e professores do centro universitário FEI
-- Apresente os principais benefícios para o usuários: Economia de dinheiro, economia de combustivel, maior conforto no trajeto
+- Apresente o usuário final:
+  - Alunos e professores do centro universitário FEI
+- Apresente os principais benefícios para o usuários:
+  -  Economia de dinheiro
+  -  economia de combustivel
+  -  maior conforto no trajeto
 - Apresente as funcionalidades:
-  - Formação de grupos de corrida baseado em rotina
-  - Organização de trajeto de viagem (ordem de paradas)
-  - Formação de viagem rápida (similar a uber)
+  - Cadastro de rotina de viagens do usuário
+  - Sugestão de grupos baseado na rotina do usuário
+  - Criação de grupos de viagem
+  - Acompanhamento de viagem em tempo real
 - Apresente as tecnologias e ferramentas computacionais utilizadas.
+  - C#
+  - React Native
+  - Google Cloud
 - Apresente o contexto de uso.
 - O produto ou serviço prevê o desenvolvimento de interface? (Sim/Não)
   - Sim
