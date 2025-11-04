@@ -11,7 +11,7 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Vou
 
 Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
 - Apresente uma breve descrição:
-  - Aplicativo de carona voltado para alunos e professores da FEI. Diferente de outros apps, esse busca organizar o usuário pela sua rotina de deslocamentos e conectar ele com outros usuários que tenham rotinas similares. Permitindo que viagem juntos.
+  - Aplicativo de carona voltado para alunos e professores da FEI. Diferente de outros apps, esse busca organizar o usuário pela sua rotina de deslocamentos e conectar ele com outros usuários que tenham rotinas similares. Permitindo que viagem juntos semanalmente.
 - Apresente o objetivo.
   - A partir de um aplicativo móvel, conseguir organizar e otimizar o deslocamento de passageiros com destino à FEI, bem como com destino de volta para casa partindo da FEI, visando diminuir a emissão de CO² e contribuir para a redução do número de veículos em circulação 
 - Apresente o usuário final:
