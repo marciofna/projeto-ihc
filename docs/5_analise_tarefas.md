@@ -1,4 +1,4 @@
-# Análise de Tarefas
+ # Análise de Tarefas
 
 > **_NOTE:_**: A equipe deve descrever as funcionalidades mais importantes da interface/produto. A equipe deve modelar pelo menos 1 HTA, 1 GOMS e 1 CTT (de pelo menos 4 funcionalidades diferentes). Cada diagrama deve ter um texto explicando a funcionalidade.
 
@@ -83,4 +83,7 @@
         * OP. 2.5: Clicar nos botões dos dias da semana dessa rotina
         * OP. 2.6: Clicar na modalidade de transporte utilizada
         * OP. 2.7: Confirmar o cadastro de rotina
-    
+
+    <img width="1253" height="586" alt="image" src="https://github.com/user-attachments/assets/e43fc296-358b-44d0-93f5-fdf3de99eb99" />
+
+
