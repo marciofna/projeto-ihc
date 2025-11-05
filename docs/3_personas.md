@@ -14,7 +14,8 @@ O projeto é direcionado para alunos e professores do centro universitário FEI,
 - Requisitos: o APP vou pra FEI, Estar matriculado
 - Expectativas: Conseguir economizar dinheiro no seu deslocamento para a FEI
 
-FOTO
+<img width="512" height="768" alt="ChatGPT Image 23 de set  de 2025, 22_12_39" src="https://github.com/user-attachments/assets/849c73ff-a81d-4ad1-a713-5c2824b26da1" />
+
 
 ### Fernanda Oliveira, 21 anos
 - Status: Primaria
@@ -26,7 +27,8 @@ FOTO
 - Requisitos: o APP vou pra FEI, Estar matriculado
 - Expectativas: Conseguir economizar na gasolina 
 
-FOTO
+<img width="512" height="768" alt="d728ca2c-b6ca-4a2a-bf8e-ee6c8b23c9f4" src="https://github.com/user-attachments/assets/2848a3f7-2b1d-42d0-9a0b-92c83be0fd18" />
+
 
 ### Patricia Wicks, 21 anos
 - Status: Primaria
@@ -38,7 +40,8 @@ FOTO
 - Requisitos: o APP vou pra FEI, Estar matriculado
 - Expectativas: No máximo utiliza o app para levar amigos e conhecidos prévios para juntar as CO2ins de horas complementares
 
-FOTO
+![vouprafei - persona - patricia](https://github.com/user-attachments/assets/ec64717c-bfff-4f79-8977-bfdb1b057cf5)
+
 
 ### Outras personas (secundárias)
 - Apenas motoristas de aplicativo de fora do centro universítario FEI
