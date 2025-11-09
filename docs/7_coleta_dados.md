@@ -39,7 +39,60 @@ Para garantir a conformidade do teste com os Aspectos éticos acima devemos:
 
 
 ## 3.​ Ferramentas de Coleta de Dados (três técnicas diferentes)
+### Questionário
+Objetivos:
+- Demografia: Rapidamente obter informações sobre Localização aproximada, renda, idade e meio de deslocamento por escolha de um ou mais valores
+- Usabilidade: Coletar informações relevantes sobre preferencias de interface utilizando Liket e escala de diferenciais semantícos
+- Dores atuais: possibilidade de entender, mesmo que superficialmente, as dores do usuário através de perguntas abertas
+Aplicação:
+- Ferramenta: elaborar questionário no google forms
+- Validação: testar o questionário previamente com alunos voluntários e validado com professor orientador.
+- Divulgação: Entrar em contato com canais oficiais e não oficiais da FEI(Diretórios academicos, equipes de esporte) para divulgação do formulário em redes sociais
+  - Incluir neste material de divulgação o propósito da pesquisa e do projeto.
+  - Ressaltar os beneficios do projeto.
+- Formulárip:
+  - A primeira pagina do formulário deve conter novamente explicação sobre o proposito do projeto e da pesquisa e um termo de consentimento selecionavel
+  - Incluir perguntas de escolha para questões de demografia
+  - Incluir perguntas de escala de liket para questões relacionadas a interface e a experiencia com ferramentas similares
+  - Incluir perguntas abertas para descrição das principais dificuldades do usuário hoje
+  - Disponibilizar por periodo limitado, após termino do periodo iniciar analise
 
 ### Entrevista
 Objetivos:
-- Validar 
+- Dores atuais: Na entrevista, podemos coletar de maneira mais profunda informações sobre como os usuários se deslocam para o campus hoje.
+- Experiencia com outras ferramentas: Também podemos perguntar sobre sua experiencia com os apps concorrentes.
+- Para coletar informações mais profundas, utilizaremos perguntas não-estruturadas.
+Aplicação:
+- Ferramenta: roteiro de entrevista
+- Validação:  Verificar coerencia das perguntas e se elas atendem nosso objetivo, testar clareza das perguntas
+- Realização:
+  - Abordar alunos em locais movimentados do campus
+  - O entrevistador deve:
+      - Perguntar sobre disponibilidade para uma rapida entrevista
+      - Em caso afirmativo, informar sobre proposito da entrevista, informações sobre aspectos éticos e pedir assinatura no termo de consentimento.
+      - Iniciar entrevista baseada no roteiro
+    
+- Incluir no roteiro:
+  - Perguntas fechadas sobre demografia
+  - Perguntas abertas sobre dores do usuário
+  - Perguntas abertas sobre experiencia do usuário com outros serviço
+
+
+### brainstorming
+Objetivos:
+- Entender desejos do usuário
+- A partir dos resultados, modelar fucnionalidades
+Aplicação:
+- Ferramenta: roteiro do brainstorm
+- Validação:  Verificar roteiro com professor orientador
+- Realização:
+  - Divulgar oportunidade de participar no brainstorm
+  - Participantes devem ser 3 usuários motoristas e 3 usuários passageiros
+- Incluir no roteiro:
+  - Introdução ao tema
+  - Pergunta chave: O que te impede de viajar para a FEI com outros alunos?
+  - Momento para reflexão individual
+  - Momento para compartilhar as ideias
+  - Seleção das melhores ideias
+  - Encerramento
+Apos discussão modelar funcionalidades no projeto.
