@@ -51,6 +51,9 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 | sobrenome | Dominio | sobrenome do usuário | texto | Não pode ser nulo | N/A | PP: Campo obrigatório + PA: Validação de formatação |
 | senha | Aplicação | senha para acesso ao perfil | texto | Não pode ser nulo, deve conter caracter especial. Minimo 8 Caracteres | N/A | PP: Campo obrigatório + PA: Validação de força de senha (mínimo 8 caracteres, caractere especial obrigatório)|
 | + Rotina (R) R.[id rotina] | Aplicação | Uma rotina no contexto da aplicação se trata dos padrões de viagem de um usuário, obrigatório pelo mneos uma  | Referencia multipla | pelo menos uma referencia é obrigatória | N/A | PP: campo obrigatório + validação de integridade referencial|
+| + Grupo (G) G.[id_grupo] | aplicação | grupos que o usuário participa | referência múltipla | n/a | nenhum | PP: apenas grupos cujo o usuário pertence são exibidos + PA: Validação de integridade em caso de alteração do grupo |
+
+
 
 | Rotina (R) | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -60,7 +63,7 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 | Horários | Dominio | Horários previstos para ida e volta da viagem | seletor de horário | não será possivel agendar horarios na madrugada | 12:00 | PP: seletor de horário limitado |
 | Dias da semana | Dominio | Dias da semana em que a viagem se repete | seleção circular de didas | Domingo não está incluso como opção | nenhum dia selecionado | PP: domingo indisponivel |
 
-| Grupo | | | | | | |
+| Grupo (G)| | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
 | + id_grupo | domínio | Identificador único do grupo criado. | texto | não pode ser nulo, único | GUID gerado pela aplicação | N/A |
