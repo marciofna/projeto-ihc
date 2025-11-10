@@ -19,8 +19,8 @@ O projeto é direcionado para alunos e professores do centro universitário FEI,
 
 ### Fernanda Oliveira, 21 anos
 - Status: Primaria
-- Emprego: Estagiária na Volkswagen
-- Renda: R$1.700,00
+- Emprego: Estagiária na Itaú
+- Renda: R$2.500,00
 - Objetivos: Ter com quem rachar a gasolina na ida pra FEI
 - Habilidades: Ensino superior incompleto, já dirige a um tempo
 - Tarefas: Cadastrar rotina, criar viagem, iniciar viagem como motorista
