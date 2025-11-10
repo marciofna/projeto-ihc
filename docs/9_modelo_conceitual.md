@@ -42,7 +42,17 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 
 > **_NOTE:_**: fazer a junção das 3 tabelas abaixo em uma única
 
-| Cadastro de rotina | | | | | | |
+| Usuario da aplicação (UA) | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
+| + id_usuário | domínio | Identificador único do usuário. | texto | não pode ser nulo, único | GUID gerado pela aplicação | n/a|
+| email_institucional | Dominio | Email institucional da FEI | texto | o dominio deve ser obrigatoriamente @fei.edu.br | example@fei.edu.br | PP: Campo obrigatório + PA: Validação de formatação |
+| Primeiro nome | Dominio | Primeiro nome do usuário | texto | Não pode ser nulo | N/A | PP: Campo obrigatório + PA: Validação de formatação |
+| sobrenome | Dominio | sobrenome do usuário | texto | Não pode ser nulo | N/A | PP: Campo obrigatório + PA: Validação de formatação |
+| senha | Aplicação | senha para acesso ao perfil | texto | Não pode ser nulo, deve conter caracter especial. Minimo 8 Caracteres | N/A | PP: Campo obrigatório + Validação de regras de negócio|
+| + Rotina (R) R.[id rotina] | Aplicação | Uma rotina no contexto da aplicação se trata dos padrões de viagem de um usuário, obrigatório pelo mneos uma  | Referencia multipla | pelo menos uma referencia é obrigatória | N/A | PP: campo obrigatório + validação de integridade referencial|
+
+| Rotina (R) | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
 | + id_rotina | domínio | Identificador único da rotina. | texto | não pode ser nulo, único | GUID gerado pela aplicação | n/a|
@@ -50,17 +60,16 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 | Horários | Dominio | Horários previstos para ida e volta da viagem | seletor de horário | não será possivel agendar horarios na madrugada | 12:00 | N/A |
 | Dias da semana | Dominio | Dias da semana em que a viagem se repete | seleção circular de didas | Domingo não está incluso como opção | nenhum dia selecionado | N/A |
 
+| Grupo | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
+| + id_grupo | domínio | Identificador único do grupo criado. | texto | não pode ser nulo, único | GUID gerado pela aplicação | n/a |
+| + rotina (R) | Aplicação | Uma rotina é definida por um item que engloba Endereço + Horário + Frequencia. Um grupo poder ser baseado em uma rotina para sua criação| texto | não pode ser nulo, único | n/a | n/a |
+| + Usuários participantes (UA) UA.'['nome + sobrenome']'| Aplicação | Usuários que participam do grupo | texto | não pode ser nulo, único | nenhum | n/a |
+| Vagas dispinveis | Dominio | Quantas vagas o grupo possui | Numero | Valor numérico que não pode exceder a capacidade do veiculo |  | n/a |
 
 
 
-| Credenciais (C) \- credenciais para acesso ao sistema |  |  |  |
-| :---- | :---- | :---- | :---- |
-| **signo** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** |
-| usuário | texto | não pode ser nulo | — |
-| senha | texto | não pode ser nulo | — |
 
-| Credenciais (C) \- credenciais para acesso ao sistema |  |  |
-| :---- | :---- | :---- |
-| **signo** | **prevenção** | **recuperação** |
-| usuário | PP: campo obrigatório | RA |
-| senha | PP campo obrigatório  | RA |
+
+
