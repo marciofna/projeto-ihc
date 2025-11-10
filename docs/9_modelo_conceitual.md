@@ -35,6 +35,8 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 
 3) **Mapa de Objetivos**
 > **_NOTE:_**: cada um coloca seu mapa de objetivos e deverá ter um diagrama de consolidação
+<img width="857" height="722" alt="image" src="https://github.com/user-attachments/assets/c591e4ad-c346-43e1-8868-ed7b5a7d207e" />
+
 
 4) **Esquema Conceitual de Signos**
 
