@@ -49,7 +49,7 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 | email_institucional | Dominio | Email institucional da FEI | texto | o dominio deve ser obrigatoriamente @fei.edu.br | example@fei.edu.br | PP: Campo obrigatório + PA: Validação de formatação |
 | Primeiro nome | Dominio | Primeiro nome do usuário | texto | Não pode ser nulo | N/A | PP: Campo obrigatório + PA: Validação de formatação |
 | sobrenome | Dominio | sobrenome do usuário | texto | Não pode ser nulo | N/A | PP: Campo obrigatório + PA: Validação de formatação |
-| senha | Aplicação | senha para acesso ao perfil | texto | Não pode ser nulo, deve conter caracter especial. Minimo 8 Caracteres | N/A | PP: Campo obrigatório + Validação de regras de negócio|
+| senha | Aplicação | senha para acesso ao perfil | texto | Não pode ser nulo, deve conter caracter especial. Minimo 8 Caracteres | N/A | PP: Campo obrigatório + PA: Validação de força de senha (mínimo 8 caracteres, caractere especial obrigatório)|
 | + Rotina (R) R.[id rotina] | Aplicação | Uma rotina no contexto da aplicação se trata dos padrões de viagem de um usuário, obrigatório pelo mneos uma  | Referencia multipla | pelo menos uma referencia é obrigatória | N/A | PP: campo obrigatório + validação de integridade referencial|
 
 | Rotina (R) | | | | | | |
