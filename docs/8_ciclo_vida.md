@@ -21,12 +21,20 @@
 | Lei n.º 10.098/2000 \- Lei da Acessibilidade |  Devemos garantir que nossa interface respeite as diretrizes de acessibilidade, ajustando elementos visuais de maneira que promovam uma boa experiencia quando utilizados por  pessoas com deficiências. | [https://www.planalto.gov.br/ccivil\_03/leis/l10098.htm](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm) |
 | ABNT NBR ISO 9241 Ergonomia da interação humano-sistema | Ao respeitar a norma ABNT NBR ISO 9241, garantimos a criação de uma interface satisfatória para nossos usuários.  | [https://www.inf.ufsc.br/\~edla.ramos/ine5624/\_Walter/Normas/Parte%2011/iso9241-11F2.pdf](https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf) |
 |  As 10 Heurísticas de Usabilidade de Jakob Nielsen | As 10 Heurísticas de Usabilidade são uma excelente ferramenta para validar a consistencia de elementos como botões e mensagens, prevenção de erros, visibildade de status entre outros. | https://www.nngroup.com/articles/ten-usability-heuristics/ |
+| ABNT NBR ISO 15005:201  | Esta é a norma dos princípios ergonômicos para a interface de sistemas de informação e controle em veículos em movimento, com ela visamos projetar nossa interface de maneira que não crie distrações para motoristas que irão utilizar o APP durante a execução da viagem | https://www.iso.org/standard/69238.html |
 
    
 
 3. **Metas de Usabilidade**
 
    1. **Qualitativo**
+      - Responsividade em tempo real: Para acompanhamentos de viagem em tempo real, é necessário baixa latencia para atraso minimo na exibição da localização do motorista
+      
+      - Consistencia da interface: Garantir que nossas telas seguem uma padronização e coerencia
+      
+      - Informar o usuário de conexão lenta: Caso a conexão esteja ruim, emitir alertar para o usuário que isso pode afetar algumas funcionalidades que dependem do real time
+      
+      - Interface sem distração para funcionalidades voltadas para motorista: Devemos garantir que as telas que serão utilizadas por motoristas durante uma viagem possuem o minimo de distração possivel. Um exemplo seria adotar botões maiores e não incluir rolagem vertical ou horizontal.
 
     
 
@@ -35,9 +43,9 @@
     
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
+| Facilidade de aprendizado | 10% | Acreditamos ter uma interface com funcionalidades simples, não sendo necessário muita prática para aprendizado |
+| Eficiencia | 20% | É muito importante que nossa interface seja eficiente especialmente em funcionalidades para motoristas |
+| Facilidade de memorização | 10% | Pela simplicidade da interface, não vai requerir muita memorização |
+| Baixa taxa de Erros | 20% | Erros frequentes podem acarretar em menor satisfação do usuário com a interface  |
+| Satisfação | 40% | O principal esforço deve se concentrar na satisfação do usuário para uso recorrente da aplicação |
 | **Total** | **100%** |  |
