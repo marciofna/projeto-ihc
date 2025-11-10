@@ -3,18 +3,23 @@
 > **_NOTE:_**: A equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.
 
 ### 1. Cenário de Análise/Problema
+Atores: Matheus (Aluno, passageiro), Fernanda (Aluna, Motorista)
+
 Matheus, 17 anos, aluno recém ingressado no Centro Universitário FEI, não possui emprego e nem carteira de motorista. Costumava ir a pé para o ensino médio, porém como mora no Rudge Ramos isso é inviável. Matheus precisa frequentar o campus todo os dias. Ele possui uma mesada que recebe dos pais, esta mesada deve cobrir todos os seus gastos do mês. Matheus percebe que o transporte público é a opção mais acessível, porém considera ele desconfortável e lento. Especialmente considerando que seu deslocamento do campus ocorre em horário de pico. 
 
-Matheus então decide utilizar o aplicativo UBER para começar a viajar para o campus, de início o aplicativo oferece cupons de desconto fazendo com que suas viagens fossem confortáveis e baratas. Porém em um dia chuvoso, com acidente na Anchieta e na Robbert Kennedy, Matheus viu o preço de sua viagem chegar a um valor extremamente alto. Sem muita escolha pois tinha trabalho para apresentar, ele solicita a corrida mesmo assim, apenas para se deparar com motoristas aceitando e cancelando sua corrida. Sem opões novamente, Matheus teve que pedir prioridade na viagem, tornando-a ainda mais cara.
+Matheus então decide utilizar o aplicativo UBER para começar a viajar para o campus, de início o aplicativo oferece cupons de desconto fazendo com que suas viagens fossem confortáveis e baratas. Porém em um dia chuvoso, com acidente na Anchieta e na Robbert Kennedy, Matheus viu o preço de sua viagem chegar a um valor extremamente alto. Sem muita escolha pois tinha trabalho para apresentar, ele solicita a corrida mesmo assim, apenas para se deparar com motoristas aceitando e cancelando sua corrida. Sem opções novamente, Matheus teve que pedir prioridade na viagem, tornando-a ainda mais cara.
 
 Matheus então por pouco, não perdeu sua apresentação do Burger FEI da matéria de introdução de algoritmos. Mas tendo pagado um custo alto.
+
+Enquanto isso, Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza seu carro para ir para a faculdade, costuma dar carona para sua vizinha, que lhe ajuda com os custos da gasolina. Fernanda acha muito conveniente a ajuda de custo e estaria disposta a levar mais pessoas porém não sabe de ninguem além de sua vizinha que more próximo. Fernanda então viaja apenas com sua vizinha tendo 3 lugares vagos no carro.
+
 
 ### 2. Questões de Refinamento
 1. Por que Matheus precisa encontrar transporte todos os dias?
 2. Qual a consequencia se o transporte estiver indisponivel?
 3. Quais as dificudades que Matheus enfrenta para encontrar transporte?
 4. Por que se conectar a outros viajantes teria ajudado a resolver o problema do Matheus?
-5. Quais formas matheus tem para se conectar com outros alunos hoje?
+5. Quais formas matheus e fernanda tem para conhecer estes viajantes?
 
 ### 3. Refinamento do Cenário Análise/Problema
 
@@ -29,3 +34,5 @@ Matheus, 17 anos, aluno recém ingressado no Centro Universitário FEI, não pos
 Matheus então decide utilizar o aplicativo de viagens UBER para começar a viajar para o campus, de início o aplicativo oferece cupons de desconto fazendo com que suas viagens fossem confortáveis e baratas. Porém em um dia chuvoso, com acidente na Anchieta e na Robbert Kennedy, Matheus viu o preço de sua viagem chegar a um valor extremamente alto [3]. Sem muita escolha pois tinha trabalho para apresentar, ele solicita a corrida mesmo assim, apenas para se deparar com motoristas aceitando e cancelando sua corrida[3]. Sem opões novamente, Matheus teve que pedir prioridade na viagem, tornando-a ainda mais cara [3]. Devido a alta demora, Matheus acabou perdendo sua apresentação do projeto Burger FEI do primeiro semestre [2].
 
 Após este episódio, o aluno procura em seu grupo da sala [5] se alguem estária vindo para a FEI em seu bairro, oferceu ajudar com os custos do trajeto[4]. Infelizmente, apesar de outros alunos da FEI terem o mesmo trajeto que ele, nenhum deles estava em um canal onde Matheus tinha acesso [5], logo não obteve sucesso em encontra-los.
+
+Enquanto isso, Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza seu carro para ir para a faculdade, costuma dar carona para sua vizinha, que lhe ajuda com os custos da gasolina. Fernanda acha muito conveniente a ajuda de custo e estaria disposta a levar mais pessoas porém não sabe de ninguem [5] além de sua vizinha que more próximo. Fernanda então viaja apenas com sua vizinha tendo 3 lugares vagos no carro.
