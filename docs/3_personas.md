@@ -52,7 +52,7 @@ O projeto é direcionado para alunos e professores do centro universitário FEI,
 ![Mapa de empatia](imagens/empatia.png)
 
 
-### **Mapa de Empatia – Persona 1: Administrador do Metrô (Carlos)**
+### **Mapa de Empatia – Persona 1: Matheus - Aluno Passageiro**
 
 **Perfil resumido:** Matheus é aluno recem matriculado na FEI, tendo apenas 17 anos e iniciando sua trajetoria profissional. Não possui estágio nem carteira de motorista mas possui a necessidade de frequentar o campus diariamente.
 
