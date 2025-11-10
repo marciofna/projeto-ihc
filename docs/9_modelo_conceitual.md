@@ -65,8 +65,8 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
 | + id_grupo | domínio | Identificador único do grupo criado. | texto | não pode ser nulo, único | GUID gerado pela aplicação | N/A |
 | + rotina (R) | Aplicação |  Um grupo poder ser baseado em uma rotina para sua criação | referencia | N/A | N/A | PP: Apenas rotinas existentes são exibidas para criação do grupo |
-| + Usuários participantes (UA) UA.'['id_usuário']'| Aplicação | Usuários que participam do grupo | Referencia multipla| N/A | nenhum | PP: Apenas usuários validos podem participar do grupo |
-| Vagas dispinveis | Dominio | Quantas vagas o grupo possui | Numero | Valor numérico que não pode exceder a capacidade do veiculo |  | PP: Campo obrigatório + PA: Não é possivel convidar nem solicitar entrada em um grupo onde a capacidade foi excecida |
+| + Usuários participantes (UA) UA.'['id_usuário']'| Aplicação | Usuários que participam do grupo | Referencia multipla| N/A | nenhum | PP: Apenas usuários validos podem participar do grupo + PA: Validação de vinculo em caso de alteração no usuário|
+| Vagas disponiveis | Dominio | Quantas vagas o grupo possui | Numero | Valor numérico que não pode exceder a capacidade do veiculo |  | PP: Campo obrigatório + PA: Não é possivel convidar nem solicitar entrada em um grupo onde a capacidade foi excecida |
 | Meio de transporte | Dominio | A modalidade de transporte da viagem | Seleção simples e unica | motorista de aplicativo, carro, moto | | PP: Apenas modalidades suportadas exibidas|
 
 
