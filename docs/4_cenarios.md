@@ -27,7 +27,7 @@ Enquanto isso, Fernanda, 21 anos, Já possui estágio e carteira de motorista. F
 2. As variações no transporte podem acarretar em atrasos e faltas, prejudicando o aprendizado e desempenho do aluno
 3. O transporte público é lento e desconfortavel, o motorista de aplicativo é imprevisivel e caro.
 4. Caso Matheus encontrasse outros alunos para viajar com ele, poderia pedir motorista de aplicativo com mais frequencia e não ter tanto receio do alto custo uma vez que ele seria diluido entre os participantes. Caso Matheus encontra-se um aluno motorista, poderia ajudar ele com os custos da viagem e não se tornar mais refém do preço das viagens por aplicativo.
-5. Matheus possui apenas o grupo da sala, como acabou de ingressar na faculdade ainda não se inseriu em contextos o suficiente para conhecer algum aluno que pudesse viajar com ele.
+5. Matheus e Fernanda possuem apenas o grupo da sala, dependendo da sorte para conhecer outros passageiros.
 
 Matheus, 17 anos, aluno recém ingressado no Centro Universitário FEI, não possui emprego e nem carteira de motorista. Costumava ir a pé para o ensino médio, porém como mora no Rudge Ramos isso é inviável. Matheus precisa frequentar o campus todo os dias para assistir suas aulas [1]. Ele possui uma mesada que recebe dos pais, esta mesada deve cobrir todos os seus gastos do mês. Matheus percebe que o transporte público é a opção mais acessível, porém considera ele desconfortável e lento. Especialmente considerando que seu deslocamento do campus ocorre em horário de pico [3].
 
