@@ -42,11 +42,16 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 
 > **_NOTE:_**: fazer a junção das 3 tabelas abaixo em uma única
 
-| Credenciais (C) \- credenciais para acesso ao sistema |  |  |
-| :---- | :---- | :---- |
-| **signo** | **origem** | **observações** |
-| usuário | domínio |  |
-| senha | domínio |  |
+| Cadastro de rotina | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
+| + id_rotina | domínio | Identificador único da rotina. | texto | não pode ser nulo, único | GUID gerado pela aplicação | n/a|
+| Endereço de viagem | Dominio | Endereço da viagem (além do campus) | texto | Endereço localizavel via google maps | -- | PP: Campo obrigatório |
+| Horários | Dominio | Horários previstos para ida e volta da viagem | seletor de horário | não será possivel agendar horarios na madrugada | 12:00 | N/A |
+| Dias da semana | Dominio | Dias da semana em que a viagem se repete | seleção circular de didas | Domingo não está incluso como opção | nenhum dia selecionado | N/A |
+
+
+
 
 | Credenciais (C) \- credenciais para acesso ao sistema |  |  |  |
 | :---- | :---- | :---- | :---- |
