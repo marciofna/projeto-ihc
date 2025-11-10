@@ -56,17 +56,18 @@ Fernanda, 21 anos, Já possui estágio e carteira de motorista. Fernanda utiliza
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
 | + id_rotina | domínio | Identificador único da rotina. | texto | não pode ser nulo, único | GUID gerado pela aplicação | n/a|
-| Endereço de viagem | Dominio | Endereço da viagem (além do campus) | texto | Endereço localizavel via google maps | -- | PP: Campo obrigatório |
-| Horários | Dominio | Horários previstos para ida e volta da viagem | seletor de horário | não será possivel agendar horarios na madrugada | 12:00 | N/A |
-| Dias da semana | Dominio | Dias da semana em que a viagem se repete | seleção circular de didas | Domingo não está incluso como opção | nenhum dia selecionado | N/A |
+| Endereço de viagem | Dominio | Endereço da viagem (além do campus) | texto | Endereço localizavel via google maps | -- | PP: Campo obrigatório + PA: Validação de endereço (via API de geolocalização) |
+| Horários | Dominio | Horários previstos para ida e volta da viagem | seletor de horário | não será possivel agendar horarios na madrugada | 12:00 | PP: seletor de horário limitado |
+| Dias da semana | Dominio | Dias da semana em que a viagem se repete | seleção circular de didas | Domingo não está incluso como opção | nenhum dia selecionado | PP: domingo indisponivel |
 
 | Grupo | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção / recuperação** |
 | + id_grupo | domínio | Identificador único do grupo criado. | texto | não pode ser nulo, único | GUID gerado pela aplicação | n/a |
 | + rotina (R) | Aplicação | Uma rotina é definida por um item que engloba Endereço + Horário + Frequencia. Um grupo poder ser baseado em uma rotina para sua criação| texto | não pode ser nulo, único | n/a | n/a |
-| + Usuários participantes (UA) UA.'['nome + sobrenome']'| Aplicação | Usuários que participam do grupo | texto | não pode ser nulo, único | nenhum | n/a |
+| + Usuários participantes (UA) UA.'['nome + sobrenome + id']'| Aplicação | Usuários que participam do grupo | Referencia | N/A | nenhum | n/a |
 | Vagas dispinveis | Dominio | Quantas vagas o grupo possui | Numero | Valor numérico que não pode exceder a capacidade do veiculo |  | n/a |
+| Meio de transporte | Dominio | A modalidade de transporte da viagem | Seleção simples e unica | motorista de aplicativo, carro, moto | | PP: Apenas modalidades suportadas exibidas|
 
 
 
