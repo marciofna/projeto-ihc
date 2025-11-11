@@ -20,7 +20,7 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | **3\.** | **Controle e liberdade para o usuário:** |
 | Estão relacionados à situação em que os usuários frequentemente escolhem as funções do sistema por engano e então necessitam de "uma saída de emergência” claramente definida para sair do estado não desejado sem ter que percorrer um longo diálogo, ou seja, é necessário suporte a *undo* e *redo*. | O modal de cadsatro de rotina fecha imediatamente, mesmo tendo preenchio as maiores partes da informação. Estas são perdidas após o fechamento <br> <br> Correção: exigir confirmação antes de fechar o modal de cadastro. |
 | **4\.** | **Consistência e padrões:** |
-| Referem-se ao fato de que os usuários não deveriam ter acesso a diferentes situações, palavras ou ações representando a mesma coisa. A interface deve ter convenções não-ambíguas. | Na tela de cadastro de rotina, a rotina é chamada de rota. Para todo o resto da aplicação é chamado de rotina. <br> <br> Correção: Nomear o signo como rota |
+| Referem-se ao fato de que os usuários não deveriam ter acesso a diferentes situações, palavras ou ações representando a mesma coisa. A interface deve ter convenções não-ambíguas. | Na tela de cadastro de rotina, a rotina é chamada de rota. Para todo o resto da aplicação é chamado de rotina. <br> <br> Correção: Nomear o signo como rotina para padronizar. |
 | **5\.** | **Prevenção de erros:** |
 | Os erros são as principais fontes de frustração, ineficiência e ineficácia durante a utilização do sistema. |  |
 | **6\.** |  **Reconhecimento em lugar de lembrança:** |
