@@ -10,7 +10,8 @@
 
 **Diagrama:**
 
-<img width="811" height="938" alt="image" src="https://github.com/user-attachments/assets/19d4718b-73cc-4357-8d0e-fac691930d03" />
+<img width="840" height="943" alt="image" src="https://github.com/user-attachments/assets/c5042d12-813d-47d3-a28b-cdb5a1ca90ba" />
+
 
 
 > **_NOTE:_**: 1 solução completa por pessoa da equipe
