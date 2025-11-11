@@ -53,4 +53,53 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 
 2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
 
-> **_NOTE:_**: **1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
+#### Heuristica 1 - Visibilidade do estado do sistema:
+Status de viagem com animações que indicam dinamismo e atividade em progresso.
+
+<img width="343" height="605" alt="image" src="https://github.com/user-attachments/assets/d1c41d23-cc0e-485a-9b2e-d948d80db8a7" />
+
+#### Heuristica 2 - Correspondência entre o sistema e o mundo real:
+Os termos utilizados possuem clareza e é facil de entender o que esta acontecendo.
+
+<img width="314" height="555" alt="image" src="https://github.com/user-attachments/assets/4ebcfefe-4e87-4a57-bcbe-a66bdea5ea7e" />
+
+#### Heuristica 3 - Controle e liberdade do usuário::
+Modais e telas possuem botão de retorno, botão para fechamento.
+
+<img width="315" height="613" alt="image" src="https://github.com/user-attachments/assets/ab4139a6-eab4-4da9-8668-482bfd625278" />
+
+#### Heuristica 4 -  Consistência e padronização::
+Itens de cadastro de rotina e sugestão de viagem possuem elementos visuais em comum.
+
+<img width="332" height="577" alt="image" src="https://github.com/user-attachments/assets/fb3a5d6e-1b75-4e81-9048-d64979c9967a" /> <img width="329" height="528" alt="image" src="https://github.com/user-attachments/assets/46b04663-3e97-42f7-a00b-87dd57710f87" />
+
+
+
+#### Heuristica 5 -  reconhecimento em vez de memorização::
+Funcionalidades sempre visiveis no rodapé, tela de grupos contem apenas informações de grupos seguindo design minimalista.
+
+<img width="278" height="493" alt="image" src="https://github.com/user-attachments/assets/67474f3c-52f0-4ab3-90b6-a5acdb6f9cc5" />
+
+
+#### Heuristica 6 -  flexibilidade e eficiência de uso:
+Permitimos que nosso usuário crie um grupo diretamente a partir de uma rotina cadastrada
+
+<img width="278" height="454" alt="image" src="https://github.com/user-attachments/assets/1c290e88-1528-49f2-9424-9cf8c480a5cf" />
+
+#### Heuristica 7 - projeto estético e minimalista::
+Telas possuem proposito unico, evitando poluição visual
+
+<img width="284" height="497" alt="image" src="https://github.com/user-attachments/assets/a548c55f-8844-40b0-8b1d-74f905fe5e0d" /> <img width="283" height="489" alt="image" src="https://github.com/user-attachments/assets/1f3d2227-1976-47c6-8a95-15fa4a322066" /> <img width="259" height="502" alt="image" src="https://github.com/user-attachments/assets/126f0097-c493-47eb-a972-f5490c70ab09" />
+
+
+#### Heuristica 8 - prevenção de erros: :
+Um dia marcado com X sinaliza um dia lotado, onde não é possivel participar da viagem. Não permitimos o clique no dia, impedindo que usuários façam solicitações
+
+<img width="422" height="123" alt="image" src="https://github.com/user-attachments/assets/1e2283eb-6034-4df0-bfff-da6abee6432e" />
+
+
+#### Heuristica 9 - Recuperação de erros :
+Falha avaliada, não estamos apontando onde está o erro para o usuário.
+
+#### Heuristica 10 -  ajuda e documentação: :
+Falha avaliada, nossa interface possui poucas instruções
