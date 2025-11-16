@@ -14,11 +14,11 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 
 | 1\. | Visibilidade do status do sistema: |
 | :---- | :---- |
-| O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. | A interface apresenta poucas mensagens de sucesso,, não fica claro quando um estado mudou. Especialmente no cadastro de rotina, solicitação de entrada em grupos e confirmação de presença em viagens. Apenas foram feitas mensagens de erro. <br> <br> Correção: Incluir mensagem de sucesso no cadastro bem sucedido de itens.  |
+| O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. | A interface apresenta poucas mensagens de sucesso,, não fica claro quando um estado mudou. Especialmente no cadastro de rotina, solicitação de entrada em grupos e confirmação de presença em viagens. Apenas foram feitas mensagens de erro. <br> <br> **Correção:** Incluir mensagem de sucesso no cadastro bem sucedido de itens.  |
 | **2\.** | **Compatibilidade entre sistema e mundo real:** |
 | O sistema deve utilizar a linguagem do usuário, com palavras, frases e conceitos familiares para ele, ao invés de termos específicos de sistemas. Seguir convenções do mundo real, fazendo com que a informação apareça em uma ordem lógica e natural. | N/A  |
 | **3\.** | **Controle e liberdade para o usuário:** |
-| Estão relacionados à situação em que os usuários frequentemente escolhem as funções do sistema por engano e então necessitam de "uma saída de emergência” claramente definida para sair do estado não desejado sem ter que percorrer um longo diálogo, ou seja, é necessário suporte a *undo* e *redo*. | O modal de cadsatro de rotina fecha imediatamente, mesmo tendo preenchio as maiores partes da informação. Estas são perdidas após o fechamento <br> <br> Correção: exigir confirmação antes de fechar o modal de cadastro. |
+| Estão relacionados à situação em que os usuários frequentemente escolhem as funções do sistema por engano e então necessitam de "uma saída de emergência” claramente definida para sair do estado não desejado sem ter que percorrer um longo diálogo, ou seja, é necessário suporte a *undo* e *redo*. | O modal de cadsatro de rotina fecha imediatamente, mesmo tendo preenchio as maiores partes da informação. Estas são perdidas após o fechamento <br> <br> **Correção:** exigir confirmação antes de fechar o modal de cadastro. |
 | **4\.** | **Consistência e padrões:** |
 | Referem-se ao fato de que os usuários não deveriam ter acesso a diferentes situações, palavras ou ações representando a mesma coisa. A interface deve ter convenções não-ambíguas. | Na tela de cadastro de rotina, a rotina é chamada de rota. Para todo o resto da aplicação é chamado de rotina. <br> <br> Correção: Nomear o signo como rotina para padronizar. |
 | **5\.** | **Prevenção de erros:** |
@@ -102,4 +102,7 @@ Um dia marcado com X sinaliza um dia lotado, onde não é possivel participar da
 Falha avaliada, não estamos apontando onde está o erro para o usuário.
 
 #### Heuristica 10 -  ajuda e documentação: :
-Falha avaliada, nossa interface possui poucas instruções
+Para o fluxo de cadastro de usuário, deixamos instruções na tela para auxiliar o usuário.
+
+<img width="2103" height="897" alt="image" src="https://github.com/user-attachments/assets/a0c8ce4e-9992-47ce-9514-9608e2e7f843" />
+
