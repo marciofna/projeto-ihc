@@ -83,7 +83,7 @@
         * OP. 2.5: Clicar nos botões dos dias da semana dessa rotina
         * OP. 2.6: Clicar na modalidade de transporte utilizada
         * OP. 2.7: Confirmar o cadastro de rotina
-
-    <img width="1253" height="586" alt="image" src="https://github.com/user-attachments/assets/e43fc296-358b-44d0-93f5-fdf3de99eb99" />
+### CTT
+<img width="1253" height="586" alt="image" src="https://github.com/user-attachments/assets/e43fc296-358b-44d0-93f5-fdf3de99eb99" />
 
 
