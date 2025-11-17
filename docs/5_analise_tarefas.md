@@ -55,30 +55,30 @@
         * OP. 2.2: Tocar em tipo de rota
         * OP. 2.3: No formulario suspenso, tocar no tipo de viagem
         * GOAL 2.4: Definir detalhes da rotina
-          * **METHOD 2.A.4.A:** Rotina só de ida
+          * **METHOD 2.4.A:** Rotina só de ida
              * (SEL. RULE: No op 2.2 Usuário deve ter selecionado corrida só de ida)
-             * OP 2.A.4.A.1: Tocar em endereço de ida
-             * OP 2.A.4.A.2: Digitar o endereço de ida
-             * OP 2.A.4.A.3: Tocar em horário de saída da ida
-             * OP 2.A.4.A.4: Arrastar no relógio para definir horario de ida
+             * OP 2.4.A.1: Tocar em endereço de ida
+             * OP 2.4.A.2: Digitar o endereço de ida
+             * OP 2.4.A.3: Tocar em horário de saída da ida
+             * OP 2.4.A.4: Arrastar no relógio para definir horario de ida
              
-          * **METHOD 2.A.4.B:** Rotina só de volta
+          * **METHOD 2.4.B:** Rotina só de volta
              * (SEL. RULE: No op 2.2 Usuário deve ter selecionado corrida só de volta)
-             * OP 2.A.4.B.1: Tocar em endereço de volta
-             * OP 2.A.4.B.2: Digitar o endereço de volta
-             * OP 2.A.4.B.3: Tocar em horário de saída da volta
-             * OP 2.A.4.B.4: Arrastar no relógio para definir horario de volta
+             * OP 2.4.B.1: Tocar em endereço de volta
+             * OP 2.4.B.2: Digitar o endereço de volta
+             * OP 2.4.B.3: Tocar em horário de saída da volta
+             * OP 2.4.B.4: Arrastar no relógio para definir horario de volta
                
-          * **METHOD 2.A.4.C:** Rotina de ida e volta
+          * **METHOD 2.4.C:** Rotina de ida e volta
              * (SEL. RULE: No op 2.2 Usuário deve ter selecionado corrida de ida e volta)
-             * OP 2.A.4.C.1: Tocar em endereço de ida
-             * OP 2.A.4.C.2: Digitar o endereço de ida
-             * OP 2.A.4.C.3: Tocar em endereço de volta
-             * OP 2.A.4.C.4: Digitar o endereço de volta
-             * OP 2.A.4.C.5: Tocar em horário de saída da ida
-             * OP 2.A.4.C.6: Arrastar no relógio para definir horario de ida
-             * OP 2.A.4.C.7: Tocar em horário de saída da volta
-             * OP 2.A.4.C.8: Arrastar no relógio para definir horario de volta
+             * OP 2.4.C.1: Tocar em endereço de ida
+             * OP 2.4.C.2: Digitar o endereço de ida
+             * OP 2.4.C.3: Tocar em endereço de volta
+             * OP 2.4.C.4: Digitar o endereço de volta
+             * OP 2.4.C.5: Tocar em horário de saída da ida
+             * OP 2.4.C.6: Arrastar no relógio para definir horario de ida
+             * OP 2.4.C.7: Tocar em horário de saída da volta
+             * OP 2.4.C.8: Arrastar no relógio para definir horario de volta
   
         * OP. 2.5: Clicar nos botões dos dias da semana dessa rotina
         * OP. 2.6: Clicar na modalidade de transporte utilizada
