@@ -9,16 +9,16 @@
 
 2) **DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE \[1 solução por equipe\]**
 
-**Passo 1: Definir critérios (objetivos) de avaliação** 
+**Passo 1: Definir critérios (objetivos) de avaliação** <br>
 Focaremos em entender o quão fluido é a interação do nosso usuário com o sistema e quais as dificuldades encontradas.
 
-**Passo 2: Definir o escopo da avaliação**
+**Passo 2: Definir o escopo da avaliação** <br>
 O escopo do teste de observação sera aplicado baseado nos MOLICS(cadastro de rotina e cadastro de grupo).
 
-**Passo 3: Definir os perfis dos participantes**
+**Passo 3: Definir os perfis dos participantes** <br>
 Para esta avaliação podemos utilizar qualquer usuário que se enquadre em qualquer persona presente no projeto(Ou seja, qualquer aluno e professor do centro universítario FEI é um bom canditato, motorista ou passageiro), as tarefas definidas para este teste serão executadas por ambas personas em um cenário real logo não a necessidade de segmneter X tarefa para X persona sendo mais valioso que todos os participantes executem ambas tarefas. Serão avaliados 6 participantes
 
-**Passo 4: Definir o método da avaliação**
+**Passo 4: Definir o método da avaliação** <br>
 Materiais:
 - Tablet para execução do protótipo de alto nivel
 - Termo de consentimento
@@ -29,10 +29,10 @@ Materiais:
 
 Informaremos nosso usuário sobre o contexto da aplicação, as tarefas baseadas no molic são o cadastro de rotina e o cadastro de novo grupo de viagem. Utilizaremos a sala de espelho falso da FEI e devemos orientar nosso usuário a pensar em voz alta, para facilitar a compreensão de seu raciocinio. Após a coleta do termo de consentimento, pediremos então para ele primeiro tentar executar a tarefa de cadastro de rotina. Depois de concluir a tarefa ou desistir iremos pedir para o usuário executar a tarefa de cadastro de grupo. Após a conclusão ou não das tarefas, faremos uma rapida entrevista com o usuário.
 
-**Passo 5: Execução do teste piloto**
+**Passo 5: Execução do teste piloto** <br>
 Antes de convidar os participantes, deveremos aplicar o teste piloto nos membros da nossa equipe para validação.
 
-**Passo 6: Recrutar participantes**
+**Passo 6: Recrutar participantes** <br>
 Iremos buscar alunos do centro universitário FEI que tenham disponibilidade para participar do teste, podemos tanto divulgar o teste atráves de perfis oficiais da FEI quanto abordar alunos no campus FEI SBC
 
 
