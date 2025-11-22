@@ -164,11 +164,11 @@
 PENDENTE
 
 ## 3. Iniciar Viagem
-<img width="1434" height="645" alt="image" src="https://github.com/user-attachments/assets/925651b6-7bc1-4fd6-930d-d96a30f3649a" />
+
 
 ### HTA
 
-
+<img width="1434" height="645" alt="image" src="https://github.com/user-attachments/assets/925651b6-7bc1-4fd6-930d-d96a30f3649a" />
 | Objetivos/Operações                                   | Problemas e Recomendações                                                                                                                                                                                                                                                                                                                     |
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0\. Iniciar uma viagem<br>1>2                         | Input: Grupo da viagem, confirmação de presença dos passageiros.<br>Feedback: Viagem iniciada com trajeto montado incluindo os pontos de parada para buscar passageiros confirmados<br>Plano: Selecionar grupo da viagem depois Iniciar a viagem com os passageiros confirmados                                                               |
@@ -193,6 +193,35 @@ PENDENTE
 			* **METHOD 2.2.B:** Iniciar viagem com todos os passageiros presentes
 				* (SEL. RULE: Todos os passageiros devem ter confirmado presença na viagem)
 				* OP. 2.2.B.1: Tocar em iniciar a viagem.
+
+### CTT
+PENDENTE
+
+## 4. Realizar check in na viagem
+
+### HTA
+<img width="2285" height="751" alt="image" src="https://github.com/user-attachments/assets/a450edcd-ad86-4d93-8627-775aa7688304" />
+
+
+| Objetivos/Operações                             | Problemas e Recomendações                                                                                                                                                                                |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0\. Realizar check in em viagem (Passageiro)    | Input: Confirmação de presença, Confirmação de check in<br>Feedback: Usuário deu check in na viagem e esta viajando nela.<br>Plano: Confirmar a presença na viagem DEPOIS confirmar a entrada no veículo |
+| 1\. Confirmar presença na viagem<br>1>2         | Plano: Selecionar a viagem depois confirmar a presença                                                                                                                                                   |
+| 1.1 Selecionar a viagem                         |                                                                                                                                                                                                          |
+| 1.2 Confirmar a presença na viagem              | Ação: O dono do grupo deve ter aberto a viagem para o passageiro poder fazer a confirmação<br><br>Recomendação: Notificar passageiro quando o dono do grupo abrir a viagem.                              |
+| 2\. Confirmar entrada no veículo<br>1>2         | Plano: Aguardor o veículo se aproximar DEPOIS confirmar a entrada no veículo                                                                                                                             |
+| 2.1 Aguardar o veículo estar no raio de alcance | Recomendação: Notificar o passageiro quando o dono do grupo estiver próximo.<br>Recomendação 2: Considerar disponibilizar mapa para consulta em tempo real.                                              |
+| 2.2 Confirmar a entrada no veículo              | Ação: O dono do grupo deve estar próximo (em distancia real) do passageiro para permitir o check in                                                                                                      |
+
+				
+* **GOAL 0: Realizar check in em viagem**
+    * **GOAL 1: Confirmar presença na viagem**
+        * OP. 1.1: Tocar na viagem exibida na lista
+		* OP. 1.2: Tocar em confirmar presença na viagem
+	* **GOAL 2: Confirmar entrada no veículo**
+		* OP. 2.1: Aguardar estar próximo (15 metros) do veículo do dono do grupo
+		* OP. 2.2: Tocar no pop up de check in quando disponivel
+		* OP. 2.3: Confirmar check in na viagem
 
 ### CTT
 PENDENTE
