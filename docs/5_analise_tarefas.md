@@ -161,5 +161,5 @@
 
 
 ### CTT
-<img width="1253" height="586" alt="image" src="https://github.com/user-attachments/assets/e43fc296-358b-44d0-93f5-fdf3de99eb99" />
+PENDENTE
 
