@@ -86,4 +86,80 @@
 ### CTT
 <img width="1253" height="586" alt="image" src="https://github.com/user-attachments/assets/e43fc296-358b-44d0-93f5-fdf3de99eb99" />
 
+## 2. Criação de grupo
+
+### HTA
+
+<img width="1973" height="1081" alt="image" src="https://github.com/user-attachments/assets/f639916a-fcc4-470b-8346-117557380b83" />
+
+
+
+| Objetivos/Operações                                                                      | Problemas e Recomendações                                                                                                                                                                                                                                                    |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0\. Criar um grupo                                                                       | Input: Rotina do usuário, Detalhes do grupo<br>Feedback: Grupo criado com sucesso<br>Plano: Informar a rotina que o grupo irá se basear, depois Informar detalhes do grupo e depois confirmar a criação do grupo                                                             |
+| 1.Informar rotina que será usada no grupo<br>1/2                                         | Plano: Criar a partir de rotina já existente ou criar a partir de uma nova rotina                                                                                                                                                                                            |
+| 1.1 Informar rotina já existente                                                         |                                                                                                                                                                                                                                                                              |
+| 1.2 Criar apartir de nova rotina<br>1+2                                                  | Plano: Preencher detalhes a partir do tipo de viagem e informar os dias em que a rotina se repete<br>Problema: Usuário não pode ter duas rotinas cadastradas para uma mesma data e horário<br>Recomendação: não permitir que o usuário cadastre uma rotina que obstrua outra |
+| 1.2.1 Informar tipo de viagem<br>1/2/3                                                   |                                                                                                                                                                                                                                                                              |
+| 1.2.1.1. Informar local de Saida, Horário de saida                                       | Problema: Usuário não deve ser capaz de inserir um endereço não existente ou fora do estado de são paulo<br>Recomendação: Validar existencia e localização (estado) do endereço                                                                                              |
+| 1.2.1.2. Informar local de Retorno, Horário de Retorno.                                  | Problema: Usuário não deve ser capaz de inserir um endereço não existente ou fora do estado de são paulo<br>Recomendação: Validar existencia e localização (estado) do endereço                                                                                              |
+| 1.2.1.3. Informar local de saida, Horário de saida, local de Retorno, Horário de Retorno | Problema: Usuário não deve ser capaz de inserir um endereço não existente ou fora do estado de são paulo<br>Recomendação: Validar existencia e localização (estado) do endereço                                                                                              |
+| 1.2.2. Informar dias em que a rotina se repete                                           |                                                                                                                                                                                                                                                                              |
+| 2\. Informar nome, descrição, quantidade de vagas e modalidade do grupo.                 |                                                                                                                                                                                                                                                                              |
+| 3\. Exibir mensagem de sucesso na criação do grupo.                                      |                                                                                                                                                                                                                                                                              |  
+
+
+### GOMS
+* **GOAL 0: Criar um grupo**
+    * **GOAL 1: Informar rotina**
+        * OP. 1.1: Tocar no botão criar um grupo
+	 * **METHOD 1.2.A:** Tocar no botão 'rotina já existente'
+            * (SEL. RULE: Usuário deve ter selecionado uma rotina já existente exibida em lista)
+        * **METHOD 1.2.B:** Clicar em criar a partir de nova rotina
+            * (SEL. RULE: Usuário deve ter selecionado para criar a partir de uma rotina não cadastrada em sua conta)
+            * OP. 1.2.B.1: Clicar em adicionar uma nova rotina.
+			* OP. 1.2.B.2: Clicar no tipo de viagem.
+			* GOAL 1.2.B.3: Definir detalhes da rotina
+				* **METHOD 1.2.B.3.A:** Rotina só de ida
+					* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida só de ida)
+					* OP 1.2.B.3.A.1: Tocar em endereço de ida
+					* OP 1.2.B.3.A.2: Digitar o endereço de ida
+					* OP 1.2.B.3.A.3: Tocar em horário de saída da ida
+					* OP 1.2.B.3.A.4: Arrastar no relógio para definir horario de ida
+				 
+				* **METHOD 1.2.B.3.B:** Rotina só de volta
+					* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida só de volta)
+					* OP 1.2.B.3.B.1: Tocar em endereço de volta
+					* OP 1.2.B.3.B.2: Digitar o endereço de volta
+					* OP 1.2.B.3.B.3: Tocar em horário de saída da volta
+					* OP 1.2.B.3.B.4: Arrastar no relógio para definir horario de volta
+				   
+				* **METHOD 1.2.B.3.C:** Rotina de ida e volta
+					* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida de ida e volta)
+					* OP 1.2.B.3.C.1: Tocar em endereço de ida
+					* OP 1.2.B.3.C.2: Digitar o endereço de ida
+					* OP 1.2.B.3.C.3: Tocar em endereço de volta
+					* OP 1.2.B.3.C.4: Digitar o endereço de volta
+					* OP 1.2.B.3.C.5: Tocar em horário de saída da ida
+					* OP 1.2.B.3.C.6: Arrastar no relógio para definir horario de ida
+					* OP 1.2.B.3.C.7: Tocar em horário de saída da volta
+					* OP 1.2.B.3.C.8: Arrastar no relógio para definir horario de volta
+				
+				* OP. 1.2.B.4: Clicar nos botões dos dias da semana dessa rotina
+				* OP. 1.2.B.5: Clicar na modalidade de transporte utilizada
+				* OP. 1.2.B.6: Clicar em salvar rotina
+	
+	* **GOAL 2: Informar descrição do grupo**
+		* OP. 2.1: Tocar no campo nome do grupo
+        * OP. 2.2: Digitar nome do grupo
+		* OP. 2.3: Tocar no campo descrição do grupo
+		* OP. 2.4: Digitar descrição do grupo
+		* OP. 2.5: Tocar na modalidade do grupo
+		* OP. 2.6: Tocar no campo vagas do grupo
+		* OP. 2.7: Arrastar para definir quantidade de vagas do grupo
+		* OP. 2.8: Tocar em salvar grupo
+
+
+### CTT
+<img width="1253" height="586" alt="image" src="https://github.com/user-attachments/assets/e43fc296-358b-44d0-93f5-fdf3de99eb99" />
 
