@@ -16,7 +16,7 @@ Focaremos em entender o quão fluido é a interação do nosso usuário com o si
 O escopo do teste de observação sera aplicado baseado nos MOLICS(cadastro de rotina e cadastro de grupo).
 
 **Passo 3: Definir os perfis dos participantes** <br>
-Para esta avaliação podemos utilizar qualquer usuário que se enquadre em qualquer persona presente no projeto(Ou seja, qualquer aluno e professor do centro universítario FEI é um bom canditato, motorista ou passageiro), as tarefas definidas para este teste serão executadas por ambas personas em um cenário real logo não a necessidade de segmneter X tarefa para X persona sendo mais valioso que todos os participantes executem ambas tarefas. Serão avaliados 6 participantes
+Para esta avaliação podemos utilizar qualquer usuário que se enquadre em qualquer persona presente no projeto(Ou seja, qualquer aluno ou professor universítario é um bom canditato, motorista ou passageiro), as tarefas definidas para este teste serão executadas por ambas personas em um cenário real logo não a necessidade de segmneter X tarefa para X persona sendo mais valioso que todos os participantes executem ambas tarefas. Serão avaliados 6 participantes
 
 **Passo 4: Definir o método da avaliação** <br>
 Materiais:
