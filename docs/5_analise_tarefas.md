@@ -163,3 +163,36 @@
 ### CTT
 PENDENTE
 
+## 3. Iniciar Viagem
+<img width="1434" height="645" alt="image" src="https://github.com/user-attachments/assets/925651b6-7bc1-4fd6-930d-d96a30f3649a" />
+
+### HTA
+
+
+| Objetivos/Operações                                   | Problemas e Recomendações                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0\. Iniciar uma viagem<br>1>2                         | Input: Grupo da viagem, confirmação de presença dos passageiros.<br>Feedback: Viagem iniciada com trajeto montado incluindo os pontos de parada para buscar passageiros confirmados<br>Plano: Selecionar grupo da viagem depois Iniciar a viagem com os passageiros confirmados                                                               |
+| 1\. Selecionar grupo da viagem                        | Ação: O horário da viagem deve estar proximo ao cadastrado na rotina para poder confirmar a mesma<br><br>Recomendação: Notificar por push quando o horário permitir a abertura da viagem                                                                                                                                                      |
+| 2\. Iniciar a viagem<br>1/2                           | Plano: Iniciar viagem sem todos os passageiros presentes OU Iniciar viagem com todos os passageiros presentes                                                                                                                                                                                                                                 |
+| 2.1 Iniciar viagem sem todos os passageiros presentes | Problema: não deve ser possivel iniciar a viagem se nenhum passageiro tiver confirmado.<br>Recomendação: bloquear o inicio da viagem caso nenhum passageiro tenha confirmado.<br>Recomendação 2: exibir mensagem caso nem todos os passageiros tenham confirmado (incentivar para aguardar mais tempo), porem permitir que inicie mesmo assim |
+| 2.2 Iniciar viagem com todos os passageiros presentes |                                                                                                                                                                                                                                                                                                                                               |
+
+### GOMS
+* **GOAL 0: Iniciar uma viagem**
+    * **GOAL 1: Selecionar grupo da viagem**
+        * OP. 1.1: Tocar no grupo
+		* OP. 1.2: Tocar em iniciar viagem do grupo
+		* OP. 1.3: Aguardar estar próximo do horário da viagem
+		* OP. 1.4: Selecionar em confirmar viagem do grupo
+	* **GOAL 2: Iniciar a viagem**
+		* OP. 2.1: Aguardar a confirmação de pelo menos um passageiro
+			* **METHOD 2.2.A:** Iniciar viagem sem todos os passageiros presentes
+				* (SEL. RULE: O dono do grupo deve querer iniciar a viagem sem a confirmação de todos os passageiros, 1 passageiro minimo é exigido)
+				* OP. 2.2.A.1: Tocar em iniciar a viagem.
+				* OP. 2.2.A.2: Tocar em confirmar que um passageiro não esta presente
+			* **METHOD 2.2.B:** Iniciar viagem com todos os passageiros presentes
+				* (SEL. RULE: Todos os passageiros devem ter confirmado presença na viagem)
+				* OP. 2.2.B.1: Tocar em iniciar a viagem.
+
+### CTT
+PENDENTE
