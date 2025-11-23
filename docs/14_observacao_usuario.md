@@ -42,14 +42,8 @@ Iremos buscar alunos do centro universitário FEI que tenham disponibilidade par
 
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| **1** | **Sucesso Parcial** | **2** | **Não completou a tarefa(1), (1) Compreensão** | **5 segundos** | **Confusão Moderada** |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| **1** | **Sucesso** | **1** | **Clicou na tela de viagens passadas ao inves de conseguir ir direto para as rotinas** | **2 minutos e 44 segundos** | **Confusão Moderada** |
+| **2** | **Sucesso** | **0** | **Não cometeu erros na execução** | **60 segundos** | **Bom** |
 
 **Links dos vídeos:**
 TAREFAS 1 E 2 DO MOLIC NO VIDEO ABAIXO:
