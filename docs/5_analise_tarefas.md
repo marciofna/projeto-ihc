@@ -118,40 +118,40 @@
     * **GOAL 1: Informar rotina**
         * OP. 1.1: Tocar no botão criar um grupo
 	 * **METHOD 1.2.A:** Tocar no botão 'rotina já existente'
-            * (SEL. RULE: Usuário deve ter selecionado uma rotina já existente exibida em lista)
-        * **METHOD 1.2.B:** Clicar em criar a partir de nova rotina
-            * (SEL. RULE: Usuário deve ter selecionado para criar a partir de uma rotina não cadastrada em sua conta)
-            * OP. 1.2.B.1: Clicar em adicionar uma nova rotina.
-			* OP. 1.2.B.2: Clicar no tipo de viagem.
-			* GOAL 1.2.B.3: Definir detalhes da rotina
-				* **METHOD 1.2.B.3.A:** Rotina só de ida
-					* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida só de ida)
-					* OP 1.2.B.3.A.1: Tocar em endereço de ida
-					* OP 1.2.B.3.A.2: Digitar o endereço de ida
-					* OP 1.2.B.3.A.3: Tocar em horário de saída da ida
-					* OP 1.2.B.3.A.4: Arrastar no relógio para definir horario de ida
-				 
-				* **METHOD 1.2.B.3.B:** Rotina só de volta
-					* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida só de volta)
-					* OP 1.2.B.3.B.1: Tocar em endereço de volta
-					* OP 1.2.B.3.B.2: Digitar o endereço de volta
-					* OP 1.2.B.3.B.3: Tocar em horário de saída da volta
-					* OP 1.2.B.3.B.4: Arrastar no relógio para definir horario de volta
-				   
-				* **METHOD 1.2.B.3.C:** Rotina de ida e volta
-					* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida de ida e volta)
-					* OP 1.2.B.3.C.1: Tocar em endereço de ida
-					* OP 1.2.B.3.C.2: Digitar o endereço de ida
-					* OP 1.2.B.3.C.3: Tocar em endereço de volta
-					* OP 1.2.B.3.C.4: Digitar o endereço de volta
-					* OP 1.2.B.3.C.5: Tocar em horário de saída da ida
-					* OP 1.2.B.3.C.6: Arrastar no relógio para definir horario de ida
-					* OP 1.2.B.3.C.7: Tocar em horário de saída da volta
-					* OP 1.2.B.3.C.8: Arrastar no relógio para definir horario de volta
-				
-				* OP. 1.2.B.4: Clicar nos botões dos dias da semana dessa rotina
-				* OP. 1.2.B.5: Clicar na modalidade de transporte utilizada
-				* OP. 1.2.B.6: Clicar em salvar rotina
+    	* (SEL. RULE: Usuário deve ter selecionado uma rotina já existente exibida em lista)
+	* **METHOD 1.2.B:** Clicar em criar a partir de nova rotina
+		* (SEL. RULE: Usuário deve ter selecionado para criar a partir de uma rotina não cadastrada em sua conta)
+		* OP. 1.2.B.1: Clicar em adicionar uma nova rotina.
+		* OP. 1.2.B.2: Clicar no tipo de viagem.
+		* GOAL 1.2.B.3: Definir detalhes da rotina
+			* **METHOD 1.2.B.3.A:** Rotina só de ida
+				* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida só de ida)
+				* OP 1.2.B.3.A.1: Tocar em endereço de ida
+				* OP 1.2.B.3.A.2: Digitar o endereço de ida
+				* OP 1.2.B.3.A.3: Tocar em horário de saída da ida
+				* OP 1.2.B.3.A.4: Arrastar no relógio para definir horario de ida
+			 
+			* **METHOD 1.2.B.3.B:** Rotina só de volta
+				* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida só de volta)
+				* OP 1.2.B.3.B.1: Tocar em endereço de volta
+				* OP 1.2.B.3.B.2: Digitar o endereço de volta
+				* OP 1.2.B.3.B.3: Tocar em horário de saída da volta
+				* OP 1.2.B.3.B.4: Arrastar no relógio para definir horario de volta
+			   
+			* **METHOD 1.2.B.3.C:** Rotina de ida e volta
+				* (SEL. RULE: No op 1.2.B.2 Usuário deve ter selecionado corrida de ida e volta)
+				* OP 1.2.B.3.C.1: Tocar em endereço de ida
+				* OP 1.2.B.3.C.2: Digitar o endereço de ida
+				* OP 1.2.B.3.C.3: Tocar em endereço de volta
+				* OP 1.2.B.3.C.4: Digitar o endereço de volta
+				* OP 1.2.B.3.C.5: Tocar em horário de saída da ida
+				* OP 1.2.B.3.C.6: Arrastar no relógio para definir horario de ida
+				* OP 1.2.B.3.C.7: Tocar em horário de saída da volta
+				* OP 1.2.B.3.C.8: Arrastar no relógio para definir horario de volta
+			
+			* OP. 1.2.B.4: Clicar nos botões dos dias da semana dessa rotina
+			* OP. 1.2.B.5: Clicar na modalidade de transporte utilizada
+			* OP. 1.2.B.6: Clicar em salvar rotina
 	
 	* **GOAL 2: Informar descrição do grupo**
 		* OP. 2.1: Tocar no campo nome do grupo
