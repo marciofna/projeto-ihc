@@ -40,10 +40,17 @@ Iremos buscar alunos do centro universitário FEI que tenham disponibilidade par
 
 **Avaliação de cada Tarefa (para cada usuário)**
 
+Usuário Marcio Forner
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | **1** | **Sucesso** | **1** | **Clicou na tela de viagens passadas ao inves de conseguir ir direto para as rotinas** | **2 minutos e 44 segundos** | **Confusão Moderada** |
-| **2** | **Sucesso** | **0** | **Não cometeu erros na execução** | **60 segundos** | **Bom** |
+| **2** | **Sucesso** | **0** | **Não cometeu erros na execução** | **60 segundos** | **Confusão moderada** |
+
+Usuário Livia Lumi
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| **1** | **Sucesso** | **0** | **Não cometeu erros na execução** | **60 segundos** | **Bom** |
+| **2** | **Sucesso** | **0** | **Não cometeu erros na execução** | **45 segundos** | **Bom** |
 
 **Links dos vídeos:**
 TAREFAS 1 E 2 DO MOLIC NO VIDEO ABAIXO:
@@ -51,4 +58,22 @@ https://youtu.be/-MXnDv94Y_M
 
 **Respostas do Formulário do Usuário:**
 
+**Avaliado:** Márcio Forner
+**Renda:** 1 a 2 salários minimos
+**Idade:** 21
+**Meio de deslocamento:** Carro
+**Local onde vive:** Nova Petrópolis, SBC
+**Professor ou Aluno:** Aluno
+**Familiaridade com aplicativos de viagem:** Alta
+
+**Avaliado:** Livia Lumi
+**Renda:** 1 a 2 salários minimos
+**Idade:** 21
+**Meio de deslocamento:** Motorista de aplicativo e caronas
+**Local onde vive:** Centro, SBC
+**Professor ou Aluno:** Aluno
+**Familiaridade com aplicativos de viagem:** Alta
+
 **Conclusão da avaliação por observação do usuário:**
+
+O resultado mostra que alguns usuários encontram dificuldades na hora de realizar as tarefas de cadastro de rotina, especialmente por não estar claro inicialmente o que seria a "Rotina" no contexto dessa aplicação. No geral ainda assim conseguiram executar as tarefas propostas indicando que existem pontos positivos sobre a interface.
