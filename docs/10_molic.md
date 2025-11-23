@@ -2,7 +2,8 @@
 
 **Diagrama:**
 
-<img width="810" height="1016" alt="image" src="https://github.com/user-attachments/assets/9bb482cc-2892-431f-a2b6-13f3cb9c83f5" />
+<img width="782" height="1053" alt="image" src="https://github.com/user-attachments/assets/b27d72ee-24ff-4f7e-a0f1-e461e100486f" />
+
 
 
 
