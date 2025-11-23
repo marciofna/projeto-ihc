@@ -169,6 +169,7 @@ PENDENTE
 ### HTA
 
 <img width="1434" height="645" alt="image" src="https://github.com/user-attachments/assets/925651b6-7bc1-4fd6-930d-d96a30f3649a" />
+
 | Objetivos/Operações                                   | Problemas e Recomendações                                                                                                                                                                                                                                                                                                                     |
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0\. Iniciar uma viagem<br>1>2                         | Input: Grupo da viagem, confirmação de presença dos passageiros.<br>Feedback: Viagem iniciada com trajeto montado incluindo os pontos de parada para buscar passageiros confirmados<br>Plano: Selecionar grupo da viagem depois Iniciar a viagem com os passageiros confirmados                                                               |
