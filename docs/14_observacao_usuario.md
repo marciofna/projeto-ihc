@@ -52,6 +52,8 @@ Iremos buscar alunos do centro universitário FEI que tenham disponibilidade par
 |  |  |  |  |  |  |
 
 **Links dos vídeos:**
+TAREFAS 1 E 2 DO MOLIC NO VIDEO ABAIXO:
+https://youtu.be/-MXnDv94Y_M
 
 **Respostas do Formulário do Usuário:**
 
