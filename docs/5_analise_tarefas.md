@@ -109,7 +109,7 @@
 | 1.2.1.3. Informar local de saida, Horário de saida, local de Retorno, Horário de Retorno | Problema: Usuário não deve ser capaz de inserir um endereço não existente ou fora do estado de são paulo<br>Recomendação: Validar existencia e localização (estado) do endereço                                                                                              |
 | 1.2.2. Informar dias em que a rotina se repete                                           |                                                                                                                                                                                                                                                                              |
 | 2\. Informar nome, descrição, quantidade de vagas e modalidade do grupo.                 |                                                                                                                                                                                                                                                                              |
-| 3\. Exibir mensagem de sucesso na criação do grupo.                                      |                                                                                                                                                                                                                                                                              |  
+| 3\. Confirmar criação do grupo.                                      |                                                                                                                                                                                                                                                                              |  
 
 
 ### GOMS
@@ -164,7 +164,9 @@
 
 
 ### CTT
-PENDENTE
+
+<img width="1996" height="1087" alt="image" src="https://github.com/user-attachments/assets/abf30691-7f57-4d28-bb82-27347479f40d" />
+
 
 ## 3. Iniciar Viagem
 
@@ -199,7 +201,9 @@ PENDENTE
 				* OP. 2.2.B.1: Tocar em iniciar a viagem.
 
 ### CTT
-PENDENTE
+
+<img width="1108" height="890" alt="image" src="https://github.com/user-attachments/assets/18f7a21c-2839-4f53-a58e-60c79669bf01" />
+
 
 ## 4. Realizar check in na viagem
 
@@ -240,4 +244,6 @@ PENDENTE
 			* OP. 2.2.3: Confirmar check in na viagem
 
 ### CTT
-PENDENTE
+
+<img width="1361" height="850" alt="image" src="https://github.com/user-attachments/assets/12b62843-d033-4811-ac5b-490ebf1c425e" />
+
