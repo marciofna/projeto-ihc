@@ -10,7 +10,8 @@
 
 ### HTA
 
-<img width="1559" height="690" alt="image" src="https://github.com/user-attachments/assets/759e056f-9246-4d31-b9a1-9f7b4847d92b" />
+<img width="1341" height="579" alt="image" src="https://github.com/user-attachments/assets/51a10fac-53d2-479c-9f2c-7dbd44885b32" />
+
 
 
 
@@ -27,7 +28,7 @@
 | 2.1.3. Informar local de Retorno, Horário de saida, local de Retorno, Horário de Retorno | Problema: Usuário não deve ser capaz de inserir um endereço não existente ou fora do estado de são paulo<br>Recomendação: Validar existencia e localização (estado) do endereço                                                                                              |
 | 2.2. Informar dias em que a rotina se repete                                             |                                                                                                                                                                                                                                                                              |
 | 3\. Validar se usuário desejesa cadastrar outra rotina<br>1/2                            | Plano: Cadastrar nova rotina OU encerrar o fluxo                                                                                                                                                                                                                             |
-| 3.1 Informar sucesso no cadastro                                                         |                                                                                                                                                                                                                                                                              |
+| 3.1 Confirmar cadastro                                                        |                                                                                                                                                                                                                                                                              |
 
 ### GOMS
 * **GOAL 0: Cadastro de usuário**
