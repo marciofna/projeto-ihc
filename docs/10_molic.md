@@ -9,6 +9,7 @@
 
 **Diagrama:**
 
-![fae55c80-c785-46ce-a602-743b51a11383](https://github.com/user-attachments/assets/09d3f1b2-fd8e-41f0-a163-93aaa7f05faf)
+<img width="973" height="1061" alt="image" src="https://github.com/user-attachments/assets/b9ec7f3d-36f8-4c4d-9e00-ade8f1855fa4" />
+
 
 > **_NOTE:_**: 1 solução completa por pessoa da equipe
