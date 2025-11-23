@@ -1,3 +1,5 @@
+ATENÇÃO: Conforme combinado em sala, como no momento da tarefa ja possuiamos o protótipo de média fidelidade estamos submetendo ele no lugar da prototipação em papel.
+
 ## tela de login
 <img width="446" height="782" alt="image" src="https://github.com/user-attachments/assets/4d42423f-2d07-42ed-94c3-6fd72dea4a2a" />
 
@@ -33,3 +35,4 @@
 
 ## acompanhamento de viagem (Motorista)
 <img width="334" height="558" alt="image" src="https://github.com/user-attachments/assets/652f1986-4447-449b-af23-d8b74699ca65" />
+
