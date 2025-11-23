@@ -49,6 +49,28 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 
 > **_NOTE:_**: **colocar o print**
 
+Problema 1 (Sem mensagem de sucesso):
+
+![Problema 1 gif](https://github.com/user-attachments/assets/21c21665-d32e-4fe4-8fb4-0b4e49b50947)
+
+Problema 3 (Sem confirmação antes de fechar):
+
+![Problema 3 gif](https://github.com/user-attachments/assets/36d5bd96-a054-42da-a47b-9ba48974c9ea)
+
+
+Problema 4 (nome rota ao inves de rotina):
+
+<img width="555" height="876" alt="image" src="https://github.com/user-attachments/assets/977fc669-a3a8-4a92-b80c-cb23717892bd" />
+
+Problema 7 e 8 (interface poluida e ineficiente que será usada por motoristas):
+
+<img width="455" height="810" alt="image" src="https://github.com/user-attachments/assets/b08d944e-4d06-43a5-a923-4b369cf94fa0" />
+
+Problema 9: N/A
+
+Problema 10: N/A
+
+
 > **_NOTE:_**: **escolher a tabela de declaração de violação padrão da equipe**
 
 2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
