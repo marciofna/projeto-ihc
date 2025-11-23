@@ -58,21 +58,21 @@ https://youtu.be/-MXnDv94Y_M
 
 **Respostas do Formulário do Usuário:**
 
-**Avaliado:** Márcio Forner
-**Renda:** 1 a 2 salários minimos
-**Idade:** 21
-**Meio de deslocamento:** Carro
-**Local onde vive:** Nova Petrópolis, SBC
-**Professor ou Aluno:** Aluno
+**Avaliado:** Márcio Forner <br>
+**Renda:** 1 a 2 salários minimos <br>
+**Idade:** 21 <br>
+**Meio de deslocamento:** Carro <br>
+**Local onde vive:** Nova Petrópolis, SBC <br>
+**Professor ou Aluno:** Aluno <br>
 **Familiaridade com aplicativos de viagem:** Alta
 
-**Avaliado:** Livia Lumi
-**Renda:** 1 a 2 salários minimos
-**Idade:** 21
-**Meio de deslocamento:** Motorista de aplicativo e caronas
-**Local onde vive:** Centro, SBC
-**Professor ou Aluno:** Aluno
-**Familiaridade com aplicativos de viagem:** Alta
+**Avaliado:** Livia Lumi <br>
+**Renda:** 1 a 2 salários minimos <br>
+**Idade:** 21 <br>
+**Meio de deslocamento:** Motorista de aplicativo e caronas <br>
+**Local onde vive:** Centro, SBC <br>
+**Professor ou Aluno:** Aluno <br>
+**Familiaridade com aplicativos de viagem:** Alta 
 
 **Conclusão da avaliação por observação do usuário:**
 
