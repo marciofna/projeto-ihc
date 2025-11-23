@@ -200,17 +200,19 @@ PENDENTE
 ## 4. Realizar check in na viagem
 
 ### HTA
-<img width="2285" height="751" alt="image" src="https://github.com/user-attachments/assets/a450edcd-ad86-4d93-8627-775aa7688304" />
+<img width="1429" height="695" alt="image" src="https://github.com/user-attachments/assets/ae4a9094-bfe0-4589-ba8b-ff91ddb7b6eb" />
 
 
-| Objetivos/Operações                             | Problemas e Recomendações                                                                                                                                                                                |
-| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 | 0\. Realizar check in em viagem (Passageiro)    | Input: Confirmação de presença, Confirmação de check in<br>Feedback: Usuário deu check in na viagem e esta viajando nela.<br>Plano: Confirmar a presença na viagem DEPOIS confirmar a entrada no veículo |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. Confirmar presença na viagem<br>1>2         | Plano: Selecionar a viagem depois confirmar a presença                                                                                                                                                   |
 | 1.1 Selecionar a viagem                         |                                                                                                                                                                                                          |
 | 1.2 Confirmar a presença na viagem              | Ação: O dono do grupo deve ter aberto a viagem para o passageiro poder fazer a confirmação<br><br>Recomendação: Notificar passageiro quando o dono do grupo abrir a viagem.                              |
-| 2\. Confirmar entrada no veículo<br>1>2         | Plano: Aguardor o veículo se aproximar DEPOIS confirmar a entrada no veículo                                                                                                                             |
-| 2.1 Aguardar o veículo estar no raio de alcance | Recomendação: Notificar o passageiro quando o dono do grupo estiver próximo.<br>Recomendação 2: Considerar disponibilizar mapa para consulta em tempo real.                                              |
+| 2\. Confirmar entrada no veículo<br>1>2         | Plano: Monitorar posição do veículo DEPOIS confirmar a entrada no veículo                                                                                                                                |
+| 2.1 Monitorar a posição do veículo<br>1+2       | Plano: Acompanhar veículo por mapa E receber notificação de veículo próximo                                                                                                                              |
+| 2.1.1 Acompanhar veículo pelo mapa              |                                                                                                                                                                                                          |
+| 2.1.2 Receber notificação de chegada do veículo |                                                                                                                                                                                                          |
 | 2.2 Confirmar a entrada no veículo              | Ação: O dono do grupo deve estar próximo (em distancia real) do passageiro para permitir o check in                                                                                                      |
 
 				
@@ -219,9 +221,19 @@ PENDENTE
         * OP. 1.1: Tocar na viagem exibida na lista
 		* OP. 1.2: Tocar em confirmar presença na viagem
 	* **GOAL 2: Confirmar entrada no veículo**
-		* OP. 2.1: Aguardar estar próximo (15 metros) do veículo do dono do grupo
-		* OP. 2.2: Tocar no pop up de check in quando disponivel
-		* OP. 2.3: Confirmar check in na viagem
+		* **GOAL 2.1: Monitorar o veículo**
+			* **GOAL 2.1.1: Acompanhar distancia pelo mapa**
+				* OP. 2.1.1.1: Tocar no botão de mapa da viagem
+				* OP. 2.1.1.2: utilizar gestos de pinça e arrastar para acompanhar o veículo em movimento
+			* **GOAL 2.1.2: Receber notificações de distancia do veículo**
+				* OP. 2.1.1.1: Perceber notificação de veículo próximo
+				* OP. 2.1.1.1: Perceber notificação de chegada do veículo
+				
+				
+		* **GOAL 2.2: Confirmar entrada no veículo**
+			* OP. 2.2.1: Aguardar estar próximo (15 metros) do veículo do dono do grupo
+			* OP. 2.2.2: Tocar no pop up de check in quando disponivel
+			* OP. 2.2.3: Confirmar check in na viagem
 
 ### CTT
 PENDENTE
