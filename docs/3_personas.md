@@ -82,6 +82,34 @@ O projeto é direcionado para alunos e professores do centro universitário FEI,
 * viagem rotineira, com menos risco de imprevisibilidade.
 * Maior conforto para o deslocamento até a faculdade .
 
+
+### **Mapa de Empatia – Persona 1: Matheus - Aluno Passageiro**
+
+**Perfil resumido:** Fernanda é uma aluna experiente na FEI, tem 21 anos e um estágio. Possui um carro e a necessidade de frequentar o campus diariamente.
+
+**O que ela vê?**
+* Preço alto de combustivel.
+
+**O que ele ouve?**
+* Notícias sobre o aumento de preço de combustíveis
+* Notícias sobre o impacto ambiental sobre emissões de carbono 
+
+**O que ele pensa e sente?**
+* Quer pagar mais barato em seu deslocamento.
+* Mais passageiros para dividir a viagem seriam bem vindos
+
+**O que ele fala e faz?**
+* Reclama do preço do combustivel
+
+**Dores (Medos, Obstáculos)**
+* Obstaculo de não conseguir encontrar passageiros para sua viagem
+
+**Ganhos (Necessidades, Benefícios esperados)**
+* Viagens mais baratas pelo custo compartilhado.
+* Impacto ambiental reduzido pela viagem compartilhada
+
+
+
 # Contexto de uso
 
 O aplicativo será utilizado por alunos e professores do centro universitário FEI, se trata de uma aplicação movel.
