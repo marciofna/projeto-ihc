@@ -30,21 +30,9 @@ O projeto é direcionado para alunos e professores do centro universitário FEI,
 <img width="512" height="768" alt="d728ca2c-b6ca-4a2a-bf8e-ee6c8b23c9f4" src="https://github.com/user-attachments/assets/2848a3f7-2b1d-42d0-9a0b-92c83be0fd18" />
 
 
-### Patricia Wicks, 21 anos
-- Status: Primaria
-- Emprego: Estágio na XP investimentos
-- Renda: R$3.000,00
-- Objetivos: Efetivação e formação
-- Habilidades: Ensino superior incompleto, dirige bem, afinidade casual com tecnologia
-- Tarefas: cadastrar rotina, entrar em uma viagem, criar uma viagem, iniciar viagem como motorista
-- Requisitos: o APP vou pra FEI, Estar matriculado
-- Expectativas: No máximo utiliza o app para levar amigos e conhecidos prévios para juntar as CO2ins de horas complementares
-
-![vouprafei - persona - patricia](https://github.com/user-attachments/assets/ec64717c-bfff-4f79-8977-bfdb1b057cf5)
-
 
 ### Outras personas (secundárias)
-- Apenas motoristas de aplicativo de fora do centro universítario FEI
+- Apenas motoristas de aplicativo de fora do centro universítario FEI, não relevantes para a modelagem IHC
 
 
 # Mapa de empatia
@@ -116,11 +104,11 @@ O aplicativo será utilizado por alunos e professores do centro universitário F
 
 # Jornada do usuário
 
-### Usuário Passageiro
+### Usuário Passageiro - Matheus
 Quando matheus abrir o aplicativo pela primeira vez, ira cadastrar suas informações de rotinas de viagem (Local de ida, local de volta e quais dias da semana esse padrão se repete). Após esse cadastro, matheus irá receber sugestões de grupos ja existentes com base na sua rotina cadastrada. Matheus esta atrás de um motorista, logo a viagem da Fernanda que mora a 1 KM de sua casa é conveniente. Matheus ira solicitar para entrar no grupo de Fernanda e após aprovação basta aguardar a viagem.
 Quando o dia e horario da viagem chegarem, Matheus receberá uma notificação de que Fernanda abriu viagem e então ele deve confirmar sua presença. Matheus pode acompanhar o deslocamento de Fernanda atráves de um mapa fornecido pelo aplicativo, quando Fernanda está próxima de Matheus ele já se posiciona para embarcar rapidamente. Uma vez no veículo de Fernanda, Matheus viaja até a FEI com segurança. Matheus e Fernanda agora devem viajar rotineiramente pela praticidade.
 
-### Usuário Motorista
+### Usuário Motorista - Fernanda
 Fernanda também irá cadastrar sua rotina no aplicativo, porém ela esta procurando passageiros para sua viagem. Fernanda irá criar um grupo, inserindo sua rotina de viagem nele. Logo, solicitações de embarque, podendo aprovar ou recusar. Quando reunir passageiros o suficiente, e estiver no horario da viagem, Fernanda poderá abrir uma corrida, permitindo que seus passageiros confirmem presença. Fernanda então recebe o trajeto de sua viagem, com a melhor ordem de parada entre apenas os passageiros que confirmaram a corrida. Fernanda pode utilizar um provedor de mapas terceiro para seu deslocamento e deve então buscar seus colegas de viagem.
 
 
