@@ -2,7 +2,8 @@
 
 **Diagrama:**
 
-![0ac75d27-4f92-464e-8e49-92f74eb92d9a](https://github.com/user-attachments/assets/dd2fde36-c99d-4c3f-8afc-7ab105683978)
+<img width="961" height="980" alt="image" src="https://github.com/user-attachments/assets/e826e23b-7785-4758-b472-a40ebb64738a" />
+
 
 **Nome do Cenário: Solicitação de entrada do grupo**
 
